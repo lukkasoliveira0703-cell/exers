@@ -1,0 +1,1 @@
+Essa pasta remete a uma planilha inteira só de exercicios relacionados a HTML formulários etc. Com isso armazenando tudo em uma planilha fica tudo mais concreto e mais organizado, assim remetendo todos os meus exercicios.
