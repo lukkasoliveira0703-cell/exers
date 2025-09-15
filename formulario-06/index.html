@@ -1,0 +1,114 @@
+<!DOCTYPE html><!--defenir a versão do html usada no documento-->
+<html lang="pt-br"><!--definir o idioma do site-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Formulario Simples</h1>
+<form action="cadastro.php">
+<p>
+   <label for="nome">nome:</label><!--botão para ganhar o nome do cliente-->
+<input type="text" id="inome" nome="inome">
+</p>
+
+<p>
+<label for="iemail">email:</label><!--o botão para ganhar o email do cliente-->
+<input type="email" name="iemail">
+</p>
+
+<p>
+<label for="senha">senha</label><!--botão para receber a senha do cliente-->
+<input type="password" id="isenha" name="isenha">
+</p>
+
+<p>
+<imput type="submit" value="Cadastro"><!--tag para começar a programação do cadastro do cliente-->
+</form>
+</p>
+
+<h1>Formulário de cadastro</h1>
+<form action="cadastro.php"><!--tag completa para organizar todas as informações do cliente-->
+<p>
+<label for="inomecompleto">Nome Completo</label>
+<input type="text" id="inomecompleto" name="inomecompleto">
+</p>
+
+<p><label for="nomeusuário">Nome de usuário</label>
+<input type="text" id="inomeusuário" name="inomeusuário">
+</p>
+<p>
+     <label for="emaillukas"> Email:</label>
+     <input type="emaillukas" id="iemaillukas" name="iemaillukas">
+<p>
+<label for="isenha2">Senha:</label>
+<input type="password" id="senha2" name="senha2">
+<p> 
+
+<p>Time:</p>
+<p>
+    <input type="radio" name="time_futebol" id="sao_paulo"><!--tags de listamento para organizar as preferencias dos clientes de acordo com seus gostos-->
+    <label for="sao_paulo">São paulo</label>
+
+    <input type="radio" name="time_futebol" id="corinthinas">
+    <label for="corinthinas">corinthinas</label>
+
+    <input type="radio" name="time_futebol" id="flamengo">
+    <label for="flamengo">flamengo</label>
+
+    <input type="radio" name="time_futebol" id="cruzeiro">
+    <label for="cruzeiro">cruzeiro</label>
+</p>
+ 
+<p>Interesses</P><!--exatamente a mesma pronuncia para as tags anteriores de organizamento e com caixa de escolha para o cliente-->
+    <input type="checkbox" id="esportes" name="Interesses">
+    <label for="esportes">Esportes</label>
+
+    <input type="checkbox" id="tecnologia" name="Interesses">
+    <label for="tecnologia">tecnologia</label>
+
+    <input type="checkbox" id="musica" name="Interesses">
+    <label for="musica">Música</label>
+</p>
+
+<p>Cidades</p>
+
+<p>
+    <section name="cidade" id="cidade"><!--tags para criar opções para o cliente de acessibilidade dentro do site-->
+    <optgroup label="Sudeste">
+    <option value="São paulo">São paulo</option>
+    <option value="Minas gerais">Minas gerais</option>
+    <option value="Rio de janeiro">Rio de janeiro</option>
+    <option value="Belo horizonte">Belo horizonte</option>
+    <option value="Campinas">Campinas</option>
+    <option value="Amazonia">Amazonia</option>
+    </optgroup>
+    </section>
+</p>
+<p>Mensagem:</p>
+<textarea name="mensagem" id="mensagem" rows="12"></textarea><!--caixa de mensagem e configuração para o cliente ter mais acesso e fornecer mais informações para o site-->
+<br>
+
+<input type="submit" value="Enviar"><!--input feito para configurar um botão para ter uma uma configuração dentro do site-->
+<input type="reset" value="Redefenir">
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
